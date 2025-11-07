@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Petite Maison</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- HEADER --------------------------------------------------------------------------------------->
+  <!-- TODO: styling --->
+
+  <header id="section-0">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="/index.html">
+          <img src="/images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-2">Overview</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-3">Rooms</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-4">Packages</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-5">Amenities</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-7">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#section-6">Reserve</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN ----------------------------------------------------------------------------------------->
+
+  <main>
+
+    <!-- SECTION 1 ------------------------------------------------------------------------------------>
+    <!-- TODO: css this; refine sizing, lock height for everything below tablet size --->
+
+    <section id="section-1" class="d-flex justify-content-center align-items-center" style="height: 50vmin;">
+      <div class="d-flex flex-column justify-content-center text-center w-50 h-50" style="background-color: #000324CC;">
+
+        <h1>Run on the Wheel of Luxury</h1>
+
+        <p>Explore everything the beach has to offer in our relaxing resort.</p>
+
+      </div>
+    </section>
+
+    <!--
+    <section id="section-1" class="d-flex justify-content-center align-items-center" style="height: 50vmin;">
+      <div class="w-50 h-50" style="background-color: #000324CC;">
+
+        <div class="container h-100">
+          <div class="row row-cols-1 h-100">
+
+            <div class="col position-relative">
+              <h1 class="position-absolute start-50 bottom-0 translate-middle-x">Run on the Wheel of Luxury</h1>
+            </div>
+
+            <div class="col">
+              <p>Explore everything the beach has to offer in our relaxing resort.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    -->
+
+    <!-- SECTION 2 ------------------------------------------------------------------------------------>
+    <!-- TODO: image positioning/sizing/responsiveness --->
+
+    <section id="section-2" class="py-5">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-12 col-lg-8">
+            <div class="row row-cols-1">
+
+              <div class="col">
+                <h2>Welcome to a Hamster's Paradise</h2>
+                <p>
+                  Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small
+                  mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a
+                  pool with a beach side view.
+                </p>
+                <p>
+                  Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations
+                  along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and
+                  thank you for choosing La Petite Maison.
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="/images/award-1.png" alt="TODO">
+                <img src="/images/award-2.png" alt="TODO">
+                <img src="/images/award-3.png" alt="TODO">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 order-lg-first">
+            <img src="/images/paradise.jpg" alt="TODO">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3 ------------------------------------------------------------------------------------>
+    <!-- TODO: card sizing/responsiveness --->
+
+    <section id="section-3" class="py-5">
+      <div class="container">
+
+        <h2 class="white-0-fore text-center mb-5">Our Rooms</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 g-3">
+
+          <div class="col">
+            <div class="card h-100">
+
+              <img src="/images/room-1.jpg" class="card-img-top h-50" alt="TODO">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Queen Room</h5>
+
+                <h6 class="card-subtitle mb-2 fw-bold">850 SQ FT room with city view</h6>
+
+                <ul class="card-text">
+                  <li>One queen size bed</li>
+                  <li>Seed Bar, fireplace and large balcony</li>
+                  <li>Small kitchen with a refrigerator and stove</li>
+                </ul>
+
+                <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+
+              <img src="/images/room-2.jpg" class="card-img-top h-50" alt="TODO">
+
+              <div class="card-body">
+
+                <h5 class="card-title">King Room</h5>
+
+                <h6 class="card-subtitle mb-2 fw-bold">950 SQ FT room with beach view</h6>
+
+                <ul class="card-text">
+                  <li>One king size bed</li>
+                  <li>Seed Bar, fireplace and large balcony</li>
+                  <li>Small kitchen with a refrigerator and stove</li>
+                </ul>
+
+                <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+
+              <img src="/images/room-3.jpg" class="card-img-top h-50" alt="TODO">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Beach Side Suite</h5>
+
+                <h6 class="card-subtitle mb-2 fw-bold">1500 SQ FT Suite with beach view</h6>
+
+                <ul class="card-text">
+                  <li>One California king size bed</li>
+                  <li>Second room with fireplace, hot tub, and balcony</li>
+                  <li>Seed Bar and coffee station</li>
+                  <li>Full kitchen with a refrigerator, stove, and island</li>
+                </ul>
+
+                <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4 ------------------------------------------------------------------------------------>
+    <!-- TODO: image sizing/responsiveness --->
+
+    <section id="section-4" class="py-5">
+      <div class="container">
+
+        <h2 class="text-center">Packages</h2>
+
+        <div class="row row-cols-1 row-cols-lg-2 g-3 mt-5">
+
+          <!-- PACKAGE 1 ---------------------------------->
+
+          <div class="col order-first">
+            <div>
+              <img src="/images/package-1.jpg" class="w-100" alt="TODO">
+            </div>
+          </div>
+
+          <div class="col order-1">
+            <div>
+              <h3>Beach Wedding package</h3>
+              <p>Starting US $1,500.00</p>
+              <p>
+                Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding.
+                All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard
+                cake). A private dinner for your closets family members and friends will be provided after the ceremony.
+              </p>
+            </div>
+          </div>
+
+          <!-- PACKAGE 2 ---------------------------------->
+
+          <div class="col order-2 order-lg-3">
+            <div>
+              <img src="/images/package-2.jpg" class="w-100" alt="TODO">
+            </div>
+          </div>
+
+          <div class="col order-3 order-lg-2">
+            <div>
+              <h3>Full Bloom Package</h3>
+              <p>Starting US $1,000.00</p>
+              <p>
+                Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to
+                our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with
+                fresh, vegetable centric dinners along with a live show from local musicians.
+              </p>
+            </div>
+          </div>
+
+          <!-- PACKAGE 3 ---------------------------------->
+
+          <div class="col order-4">
+            <div>
+              <img src="/images/package-3.jpg" class="w-100" alt="TODO">
+            </div>
+          </div>
+
+          <div class="col order-last">
+            <div>
+              <h3>Cheese and Seed Tour Package</h3>
+              <p>Starting US $1,200.00</p>
+              <p>
+                Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs
+                from around the globe to bring you the best flavors that nature has to offer, and create our cheeses
+                right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is
+                provided after dinner.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5 ------------------------------------------------------------------------------------>
+    <!-- TODO: font styling, image/caption positioning/sizing/responsiveness --->
+
+    <section id="section-5" class="py-5">
+      <div class="container text-center">
+
+        <h2>Amenities</h2>
+
+        <p>
+          Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we
+          can provide.
+        </p>
+
+        <div class="row row-cols-2 row-cols-lg-4 g-3 mt-5">
+
+          <div class="col">
+            <img src="/images/amenity-1.png" class="h-50" alt="TODO">
+            <p>24 Hour Room Service</p>
+          </div>
+
+          <div class="col">
+            <img src="/images/amenity-2.png" class="h-50" alt="TODO">
+            <p>Complimentary Breakfast</p>
+          </div>
+
+          <div class="col">
+            <img src="/images/amenity-3.png" class="h-50" alt="TODO">
+            <p>Valet Parking</p>
+          </div>
+
+          <div class="col">
+            <img src="/images/amenity-4.png" class="h-50" alt="TODO">
+            <p>Beachside Pool</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 6 ------------------------------------------------------------------------------------>
+    <!-- TODO: form colors/rounding/responsiveness, image sizing/responsiveness --->
+
+    <section id="section-6" class="py-5">
+      <div class="container">
+
+        <div class="black-0-back white-0-fore p-5">
+
+          <h2 class="text-center mb-3">Reserve a Room</h2>
+
+          <form class="row row-cols-2 row-cols-lg-5 g-3 align-items-end">
+
+            <div class="col">
+              <label for="inputCheckIn" class="form-label">Check In</label>
+              <input type="text" class="form-control" id="inputCheckIn">
+            </div>
+
+            <div class="col">
+              <label for="inputCheckOut" class="form-label">Check Out</label>
+              <input type="text" class="form-control" id="inputCheckOut">
+            </div>
+
+            <div class="col">
+              <label for="inputNumberOfGuests" class="form-label">Number of Guests</label>
+              <input type="text" class="form-control" id="inputNumberOfGuests">
+            </div>
+
+            <div class="col">
+              <label for="inputRoomType" class="form-label">Room Type</label>
+              <input type="text" class="form-control" id="inputRoomType">
+            </div>
+
+            <div class="col-12 mt-5 mt-lg-3">
+              <button type="submit" class="btn btn-primary w-100">Check Availability</button>
+            </div>
+
+          </form>
+
+        </div>
+
+        <div>
+          <img src="/images/reserve.jpg" class="w-100" alt="TODO">
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER --------------------------------------------------------------------------------------->
+  <!-- TODO: responsiveness --->
+
+  <footer id="section-7" class="py-5">
+    <div class="container text-center">
+
+      <img src="/images/logo.png" class="mb-3" alt="Logo">
+
+      <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
+
+      <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

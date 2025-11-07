@@ -1,0 +1,111 @@
+
+/* TEMP */
+body {
+  background-color: greenyellow;
+}
+
+/* TODO - reserve button border #E5FEFF */
+#section-0 {
+  background-color: #000324;
+  color: #FFFFFF;
+}
+
+/* TODO: refine dimensions */
+#section-1 {
+  background: center / 100vw url("/images/banner.jpg");
+  color: #E5FEFF;
+}
+
+/* TODO: section-1 small box */
+
+#section-2 {
+  background-color: #ffffff;
+  color: #1A1B26;
+}
+
+/* TODO */
+#section-3 {
+  background: center / 100vw url("/images/bg-1.jpg");
+}
+
+/* TODO */
+#section-4 {
+  background-color: #ffffff;
+}
+
+#section-5 {
+  background: center / 100vw url("/images/bg-2.jpg");
+  color: #ffffff;
+}
+
+/* TODO */
+#section-6 {
+  background-color: #ffffff;
+}
+
+#section-7 {
+  background-color: #000324;
+  color: #E5FEFF;
+}
+
+/* Colors --------------------------------------------------------------------------------------- */
+
+.white-0-fore {
+  color: #ffffff;
+}
+
+.white-0-back {
+  background-color: #ffffff;
+}
+
+
+.black-0-fore {
+  color: #000324;
+}
+
+.black-0-back {
+  background-color: #000324;
+}
+
+
+.white-1-fore {
+  color: #E5FEFF;
+}
+
+.white-1-border {
+  background-color: #E5FEFF;
+}
+
+
+.black-1-fore {
+  color: #1A1B26;
+}
+
+.black-1-back {
+  background-color: #1A1B26;
+}
+
+
+.blue-0 {
+  background-color: #004CC7;
+}
+
+.blue-1 {
+  color: #1F51A8;
+}
+
+.blue-2 {
+  background-color: #004CC7;
+}
+
+.blue-3 {
+  border-color: #1F51A8;
+}
+
+.blue-4 {
+  background-color: #004CC7;
+}
+
+.blue-5 {
+  border-color: #1F51A8;
+}
