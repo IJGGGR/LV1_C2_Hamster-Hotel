@@ -1,47 +1,90 @@
 
-/* TEMP */
-body {
-  background-color: greenyellow;
-}
+/* Section 0 ------------------------------------------------------------------------------------ */
 
-/* TODO - reserve button border #E5FEFF */
 #section-0 {
   background-color: #000324;
   color: #FFFFFF;
 }
 
-/* TODO: refine dimensions */
+.nav-link {
+  border: 2px solid #00000000;
+}
+
+.nav-link:hover {
+  border: 2px solid #E5FEFF;
+}
+
+/* Section 1 ------------------------------------------------------------------------------------ */
+
 #section-1 {
-  background: center / 100vw url("/images/banner.jpg");
+  background: center / cover url("/images/banner.jpg");
   color: #E5FEFF;
 }
 
-/* TODO: section-1 small box */
+.banner-box {
+  background-color: #000324CC;
+}
+
+/* Section 2 ------------------------------------------------------------------------------------ */
 
 #section-2 {
   background-color: #ffffff;
   color: #1A1B26;
 }
 
-/* TODO */
+/* Section 3 ------------------------------------------------------------------------------------ */
+
 #section-3 {
-  background: center / 100vw url("/images/bg-1.jpg");
+  background: center / cover url("/images/bg-1.jpg");
 }
 
-/* TODO */
+.reserve-button {
+  border-radius: 0;
+  background-color: #004CC7;
+}
+
+/* Section 4 ------------------------------------------------------------------------------------ */
+
 #section-4 {
   background-color: #ffffff;
+  color: #1A1B26;
 }
 
+.price-highlight {
+  color: #1F51A8;
+}
+
+/* Section 5 ------------------------------------------------------------------------------------ */
+
 #section-5 {
-  background: center / 100vw url("/images/bg-2.jpg");
+  background: center / cover url("/images/bg-2.jpg");
   color: #ffffff;
 }
 
-/* TODO */
+/* Section 6 ------------------------------------------------------------------------------------ */
+
 #section-6 {
   background-color: #ffffff;
+  color: #ffffff;
 }
+
+.field-label {
+  color: #E5FEFF;
+}
+
+.field-input {
+  border-radius: 0;
+  border: 1px solid #7A90D9;
+  background-color: #EBEDFC;
+}
+
+.form-button {
+  border-radius: 0;
+  border: 1px solid #000DC7;
+  background-color: #006EDB;
+}
+
+/* Section 7 ------------------------------------------------------------------------------------ */
 
 #section-7 {
   background-color: #000324;
@@ -83,29 +126,4 @@ body {
 
 .black-1-back {
   background-color: #1A1B26;
-}
-
-
-.blue-0 {
-  background-color: #004CC7;
-}
-
-.blue-1 {
-  color: #1F51A8;
-}
-
-.blue-2 {
-  background-color: #004CC7;
-}
-
-.blue-3 {
-  border-color: #1F51A8;
-}
-
-.blue-4 {
-  background-color: #004CC7;
-}
-
-.blue-5 {
-  border-color: #1F51A8;
 }
